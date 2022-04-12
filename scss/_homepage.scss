@@ -1,0 +1,119 @@
+@use "colors";
+
+.header__logo {
+  display: grid;
+  grid-template-columns: 10em auto;
+  grid-template-rows: 1fr;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 1em;
+  line-height: 2.5em;
+  height: 2.5em;
+}
+
+.logo:active,
+.logo:focus,
+.logo:hover,
+.header__menu:active,
+.header__menu:focus,
+.header__menu:hover {
+  color: #0f4d92;
+}
+
+.logo__text {
+  font-size: 1em;
+  color: #696969;
+  line-height: 4em;
+  height: 4em;
+  padding: 0 1em;
+
+  @media screen and (max-width: 550px) {
+    display: none;
+  }
+}
+
+.picture {
+  background-color: #cccccc;
+  height: 20em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.5s;
+  position: relative;
+}
+
+.picture:hover {
+  transform: translateY(-100%);
+  transform: scale(1.1);
+}
+
+.portugal {
+  background-image: url("../images/portugal.jpg");
+}
+
+.iran {
+  background-image: url("../images/iran.jpg");
+}
+
+.azerbajdan {
+  background-image: url("../images/azerbajdan.jpg");
+}
+
+.turkey {
+  background-image: url("../images/turkey.jpg");
+}
+
+.iceland {
+  background-image: url("../images/iceland.jpg");
+}
+
+.norway {
+  background-image: url("../images/norway.jpg");
+}
+
+.grid__pictures {
+  @media screen and (min-width: 600px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2em;
+  }
+  @media screen and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.picture__animation {
+  overflow: hidden;
+}
+
+.picture__text {
+  text-align: center;
+  color: colors.$color-white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  padding: 1em;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture__text h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.picture__text h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
