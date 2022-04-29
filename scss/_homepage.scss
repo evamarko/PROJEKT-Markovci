@@ -13,20 +13,18 @@
   padding-left: 1em;
   line-height: 2.5em;
   height: 2.5em;
-}
+  color: colors.$color-black;
 
-.logo:active,
-.logo:focus,
-.logo:hover,
-.header__menu:active,
-.header__menu:focus,
-.header__menu:hover {
-  color: #0f4d92;
+  &:active,
+  &:focus,
+  &:hover {
+    color: colors.$color-blue;
+  }
 }
 
 .logo__text {
   font-size: 1em;
-  color: #696969;
+  color: colors.$color-black;
   line-height: 4em;
   height: 4em;
   padding: 0 1em;
@@ -44,11 +42,11 @@
   background-size: cover;
   transition: transform 0.5s;
   position: relative;
-}
 
-.picture:hover {
-  transform: translateY(-100%);
-  transform: scale(1.1);
+  &:hover {
+    transform: translateY(-100%);
+    transform: scale(1.1);
+  }
 }
 
 .portugal {
@@ -92,9 +90,9 @@
 }
 
 .picture__text {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   text-align: center;
   color: colors.$color-white;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   position: absolute;
   left: 0;
   bottom: 0;
@@ -106,14 +104,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.picture__text h1 {
-  font-size: 1.5em;
-  text-transform: uppercase;
-}
+  h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
 
-.picture__text h2 {
-  font-size: 1.2em;
-  text-transform: uppercase;
+  h2 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
 }
