@@ -499,6 +499,7 @@ body {
 img {
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 .header__logo {
@@ -615,7 +616,6 @@ img {
 }
 
 .article__header {
-  background-image: url(../images/olaf/olaf_header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -628,7 +628,7 @@ img {
 }
 @media screen and (min-width: 930px) {
   .article__header {
-    height: 20em;
+    height: 23em;
   }
 }
 
@@ -648,7 +648,6 @@ img {
   text-align: center;
   font-size: 1.5em;
   padding: 1em;
-  color: #a6290d;
 }
 @media screen and (min-width: 550px) {
   .article__headline1,
@@ -750,4 +749,22 @@ figcaption {
   text-align: center;
   padding: 0 1em;
   font-size: 0.9em;
+}
+
+.article__header.olaf {
+  background-image: url(../images/olaf/olaf_header.jpg);
+}
+
+.article__headline1.olaf,
+.article__headline2.olaf {
+  color: #a6290d;
+}
+
+.article__header.lycij {
+  background-image: url(../images/lycij/lycij_header.jpeg);
+}
+
+.article__headline1.lycij,
+.article__headline2.lycij {
+  color: #f27405;
 }/*# sourceMappingURL=style.css.map */

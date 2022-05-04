@@ -1,4 +1,5 @@
 @use "colors";
+@use "variables";
 
 @mixin article-color($color) {
   color: $color;

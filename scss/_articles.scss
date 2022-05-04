@@ -1,0 +1,23 @@
+@use "colors";
+@use "variables";
+@import "mixins";
+
+//Olaf
+.article__header.olaf {
+  background-image: url(../images/olaf/olaf_header.jpg);
+}
+
+.article__headline1.olaf,
+.article__headline2.olaf {
+  @include article-color(colors.$color-red);
+}
+
+//Lycijska
+.article__header.lycij {
+  background-image: url(../images/lycij/lycij_header.jpeg);
+}
+
+.article__headline1.lycij,
+.article__headline2.lycij {
+  @include article-color(colors.$color-orange);
+}
