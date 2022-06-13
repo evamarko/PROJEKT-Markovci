@@ -12,6 +12,11 @@
   @include article-color(colors.$color-red);
 }
 
+//Iceland
+.article__header.iceland {
+  background-image: url(../images/iceland/iceland_header.jpeg);
+}
+
 //Lycijska
 .article__header.lycij {
   background-image: url(../images/lycij/lycij_header.jpeg);
@@ -20,4 +25,25 @@
 .article__headline1.lycij,
 .article__headline2.lycij {
   @include article-color(colors.$color-orange);
+}
+
+//Cyprus
+.article__header.cyprus {
+  background-image: url(../images/cyprus/cyprus_header.jpg);
+}
+
+.article__headline1.cyprus,
+.article__headline2.cyprus {
+  @include article-color(colors.$color-yellow);
+}
+
+//Banff
+.article__header.banff {
+  background-image: url(../images/banff/banff_header.jpg);
+}
+
+.article__headline1.banff,
+.article__headline2.banff,
+.article__link.banff {
+  @include article-color(colors.$color-blue);
 }
