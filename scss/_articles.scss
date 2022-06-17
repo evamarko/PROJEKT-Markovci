@@ -47,3 +47,14 @@
 .article__link.banff {
   @include article-color(colors.$color-blue);
 }
+
+//Alberta a BC
+.article__header.alberta-bc {
+  background-image: url(../images/alberta/alberta_header.jpg);
+}
+
+.article__headline1.alberta-bc,
+.article__headline2.alberta-bc,
+.article__link.alberta-bc {
+  @include article-color(colors.$color-green);
+}
