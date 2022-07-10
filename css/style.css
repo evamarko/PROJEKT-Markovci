@@ -691,19 +691,19 @@ img {
 
 .article__perex {
   text-align: center;
-  padding: 0 1em;
+  padding: 0 2em;
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
 @media screen and (min-width: 550px) {
   .article__perex {
-    padding: 0 2em;
+    padding: 0 6em;
   }
 }
 @media screen and (min-width: 960px) {
   .article__perex {
-    padding: 0 3em;
+    padding: 0 8em;
   }
 }
 
@@ -722,19 +722,19 @@ img {
 }
 
 .article__content-text p {
-  padding: 1em;
+  padding: 1em 2em;
   text-align: justify;
 }
 @media screen and (min-width: 550px) {
   .article__content-text p {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
   }
 }
 @media screen and (min-width: 960px) {
   .article__content-text p {
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 8em;
+    padding-right: 8em;
   }
 }
 
