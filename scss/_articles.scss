@@ -48,7 +48,7 @@
   @include article-color(colors.$color-blue);
 }
 
-//Alberta a BC
+//Alberta a BC 1
 .article__header.alberta-bc {
   background-image: url(../images/alberta/alberta_header.jpg);
 }
@@ -57,4 +57,26 @@
 .article__headline2.alberta-bc,
 .article__link.alberta-bc {
   @include article-color(colors.$color-green);
+}
+
+//Alberta a BC 2
+.article__header.alberta-bc2 {
+  background-image: url(../images/bc/bc_header.jpeg);
+}
+
+.article__headline1.alberta-bc2,
+.article__headline2.alberta-bc2,
+.article__link.alberta-bc2 {
+  @include article-color(colors.$color-blue);
+}
+
+//Stampede
+.article__header.stampede {
+  background-image: url(../images/stampede/stampede_header.jpg);
+}
+
+.article__headline1.stampede,
+.article__headline2.stampede,
+.article__link.stampede {
+  @include article-color(colors.$color-red);
 }

@@ -515,6 +515,18 @@ img {
   transform: scale(1.1);
 }
 
+.alberta2 {
+  background-image: url("../images/alberta2.jpeg");
+}
+
+.stampede-calgary {
+  background-image: url("../images/stampede.jpg");
+}
+
+.alberta-bc2 {
+  background-image: url("../images/bc.jpg");
+}
+
 .alberta-bc1 {
   background-image: url("../images/alberta.jpg");
 }
@@ -643,6 +655,8 @@ img {
 
 .article__headline2 {
   font-size: 1.2em;
+  padding-top: 1.5em;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 550px) {
   .article__headline2 {
@@ -689,7 +703,7 @@ img {
 
 .article__content-text p {
   padding: 0 2em;
-  margin-bottom: 1.5em;
+  margin: 1em 0;
   text-align: justify;
 }
 @media screen and (min-width: 550px) {
@@ -782,4 +796,24 @@ iframe {
 .article__headline2.alberta-bc,
 .article__link.alberta-bc {
   color: #4f7302;
+}
+
+.article__header.alberta-bc2 {
+  background-image: url(../images/bc/bc_header.jpeg);
+}
+
+.article__headline1.alberta-bc2,
+.article__headline2.alberta-bc2,
+.article__link.alberta-bc2 {
+  color: #0367a6;
+}
+
+.article__header.stampede {
+  background-image: url(../images/stampede/stampede_header.jpg);
+}
+
+.article__headline1.stampede,
+.article__headline2.stampede,
+.article__link.stampede {
+  color: #a6290d;
 }/*# sourceMappingURL=style.css.map */
