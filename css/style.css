@@ -816,4 +816,14 @@ iframe {
 .article__headline2.stampede,
 .article__link.stampede {
   color: #a6290d;
+}
+
+.article__header.alberta {
+  background-image: url(../images/alberta2/alberta_header.jpeg);
+}
+
+.article__headline1.alberta,
+.article__headline2.alberta,
+.article__link.alberta {
+  color: #0367a6;
 }/*# sourceMappingURL=style.css.map */

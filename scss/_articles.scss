@@ -80,3 +80,14 @@
 .article__link.stampede {
   @include article-color(colors.$color-red);
 }
+
+//Alberta
+.article__header.alberta {
+  background-image: url(../images/alberta2/alberta_header.jpeg);
+}
+
+.article__headline1.alberta,
+.article__headline2.alberta,
+.article__link.alberta {
+  @include article-color(colors.$color-blue);
+}
