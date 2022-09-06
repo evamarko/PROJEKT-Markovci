@@ -94,10 +94,11 @@
 .article__content-text p {
   padding: 0 2em;
   margin: 1em 0;
-  text-align: justify;
+  text-align: center;
 
   @media screen and (min-width: 550px) {
     padding: 0 6em;
+    text-align: justify;
   }
 
   @media screen and (min-width: 960px) {

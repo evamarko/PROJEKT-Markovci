@@ -515,6 +515,14 @@ img {
   transform: scale(1.1);
 }
 
+.alaska-border {
+  background-image: url("../images/alaska-highway/alaskah15.jpeg");
+}
+
+.alaska-highway {
+  background-image: url("../images/alaska-highway.jpeg");
+}
+
 .alberta2 {
   background-image: url("../images/alberta2.jpeg");
 }
@@ -704,11 +712,12 @@ img {
 .article__content-text p {
   padding: 0 2em;
   margin: 1em 0;
-  text-align: justify;
+  text-align: center;
 }
 @media screen and (min-width: 550px) {
   .article__content-text p {
     padding: 0 6em;
+    text-align: justify;
   }
 }
 @media screen and (min-width: 960px) {
@@ -826,4 +835,24 @@ iframe {
 .article__headline2.alberta,
 .article__link.alberta {
   color: #0367a6;
+}
+
+.article__header.alaskah {
+  background-image: url(../images/alaska-highway/alaska-highway_header.jpeg);
+}
+
+.article__headline1.alaskah,
+.article__headline2.alaskah,
+.article__link.alaskah {
+  color: #0367a6;
+}
+
+.article__header.alaskab {
+  background-image: url(../images/alaska-highway/alaskah13.jpeg);
+}
+
+.article__headline1.alaskab,
+.article__headline2.alaskab,
+.article__link.alaskab {
+  color: #a6290d;
 }/*# sourceMappingURL=style.css.map */

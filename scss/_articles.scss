@@ -91,3 +91,25 @@
 .article__link.alberta {
   @include article-color(colors.$color-blue);
 }
+
+//Alaska Highway
+.article__header.alaskah {
+  background-image: url(../images/alaska-highway/alaska-highway_header.jpeg);
+}
+
+.article__headline1.alaskah,
+.article__headline2.alaskah,
+.article__link.alaskah {
+  @include article-color(colors.$color-blue);
+}
+
+//Alaska Border Crossing
+.article__header.alaskab {
+  background-image: url(../images/alaska-highway/alaskah13.jpeg);
+}
+
+.article__headline1.alaskab,
+.article__headline2.alaskab,
+.article__link.alaskab {
+  @include article-color(colors.$color-red);
+}
