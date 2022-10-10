@@ -113,3 +113,14 @@
 .article__link.alaskab {
   @include article-color(colors.$color-red);
 }
+
+//Dempster Highway
+.article__header.dempster {
+  background-image: url(../images/dempster/dempster_header.jpeg);
+}
+
+.article__headline1.dempster,
+.article__headline2.dempster,
+.article__link.dempster {
+  @include article-color(colors.$color-green);
+}

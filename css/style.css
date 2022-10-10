@@ -515,6 +515,10 @@ img {
   transform: scale(1.1);
 }
 
+.dempster-highway {
+  background-image: url("../images/dempster.jpeg");
+}
+
 .alaska-border {
   background-image: url("../images/alaska-highway/alaskah15.jpeg");
 }
@@ -732,7 +736,10 @@ img {
 
 .article__content-text a:hover,
 .article__content-text a:focus,
-.article__content-text a:active {
+.article__content-text a:active,
+.article__perex a:hover,
+.article__perex a:focus,
+.article__perex a:active {
   text-decoration: underline;
 }
 
@@ -855,4 +862,14 @@ iframe {
 .article__headline2.alaskab,
 .article__link.alaskab {
   color: #a6290d;
+}
+
+.article__header.dempster {
+  background-image: url(../images/dempster/dempster_header.jpeg);
+}
+
+.article__headline1.dempster,
+.article__headline2.dempster,
+.article__link.dempster {
+  color: #4f7302;
 }/*# sourceMappingURL=style.css.map */

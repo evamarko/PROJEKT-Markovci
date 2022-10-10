@@ -112,7 +112,10 @@
 
 .article__content-text a:hover,
 .article__content-text a:focus,
-.article__content-text a:active {
+.article__content-text a:active,
+.article__perex a:hover,
+.article__perex a:focus,
+.article__perex a:active {
   text-decoration: underline;
 }
 
