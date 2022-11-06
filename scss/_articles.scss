@@ -7,11 +7,6 @@
   background-image: url(../images/olaf/olaf_header.jpg);
 }
 
-.article__headline1.olaf,
-.article__headline2.olaf {
-  @include article-color(colors.$color-red);
-}
-
 //Iceland
 .article__header.iceland {
   background-image: url(../images/iceland/iceland_header.jpeg);
@@ -22,19 +17,9 @@
   background-image: url(../images/lycij/lycij_header.jpeg);
 }
 
-.article__headline1.lycij,
-.article__headline2.lycij {
-  @include article-color(colors.$color-orange);
-}
-
 //Cyprus
 .article__header.cyprus {
   background-image: url(../images/cyprus/cyprus_header.jpg);
-}
-
-.article__headline1.cyprus,
-.article__headline2.cyprus {
-  @include article-color(colors.$color-yellow);
 }
 
 //Banff
@@ -42,32 +27,14 @@
   background-image: url(../images/banff/banff_header.jpg);
 }
 
-.article__headline1.banff,
-.article__headline2.banff,
-.article__link.banff {
-  @include article-color(colors.$color-blue);
-}
-
-//Alberta a BC 1
+//První roadtrip
 .article__header.alberta-bc {
   background-image: url(../images/alberta/alberta_header.jpg);
 }
 
-.article__headline1.alberta-bc,
-.article__headline2.alberta-bc,
-.article__link.alberta-bc {
-  @include article-color(colors.$color-green);
-}
-
-//Alberta a BC 2
+//Roadtrip s rodiči Kanada
 .article__header.alberta-bc2 {
   background-image: url(../images/bc/bc_header.jpeg);
-}
-
-.article__headline1.alberta-bc2,
-.article__headline2.alberta-bc2,
-.article__link.alberta-bc2 {
-  @include article-color(colors.$color-blue);
 }
 
 //Stampede
@@ -75,21 +42,9 @@
   background-image: url(../images/stampede/stampede_header.jpg);
 }
 
-.article__headline1.stampede,
-.article__headline2.stampede,
-.article__link.stampede {
-  @include article-color(colors.$color-red);
-}
-
 //Alberta
 .article__header.alberta {
   background-image: url(../images/alberta2/alberta_header.jpeg);
-}
-
-.article__headline1.alberta,
-.article__headline2.alberta,
-.article__link.alberta {
-  @include article-color(colors.$color-blue);
 }
 
 //Alaska Highway
@@ -97,21 +52,9 @@
   background-image: url(../images/alaska-highway/alaska-highway_header.jpeg);
 }
 
-.article__headline1.alaskah,
-.article__headline2.alaskah,
-.article__link.alaskah {
-  @include article-color(colors.$color-blue);
-}
-
 //Alaska Border Crossing
 .article__header.alaskab {
   background-image: url(../images/alaska-highway/alaskah13.jpeg);
-}
-
-.article__headline1.alaskab,
-.article__headline2.alaskab,
-.article__link.alaskab {
-  @include article-color(colors.$color-red);
 }
 
 //Dempster Highway
@@ -119,8 +62,42 @@
   background-image: url(../images/dempster/dempster_header.jpeg);
 }
 
-.article__headline1.dempster,
-.article__headline2.dempster,
-.article__link.dempster {
+//Dawson
+.article__header.dawson {
+  background-image: url(../images/dawson/dawson_header.jpeg);
+}
+
+//Red articles
+.article__headline1.red,
+.article__headline2.red,
+.article__link.red {
+  @include article-color(colors.$color-red);
+}
+
+//Orange articles
+.article__headline1.orange,
+.article__headline2.orange,
+.article__link.orange {
+  @include article-color(colors.$color-orange);
+}
+
+//Yellow articles
+.article__headline1.yellow,
+.article__headline2.yellow,
+.article__link.yellow {
+  @include article-color(colors.$color-yellow);
+}
+
+//Blue articles
+.article__headline1.blue,
+.article__headline2.blue,
+.article__link.blue {
+  @include article-color(colors.$color-blue);
+}
+
+//Green articles
+.article__headline1.green,
+.article__headline2.green,
+.article__link.green {
   @include article-color(colors.$color-green);
 }

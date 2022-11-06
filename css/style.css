@@ -515,6 +515,10 @@ img {
   transform: scale(1.1);
 }
 
+.dawson-city {
+  background-image: url("../images/dawson-city.jpeg");
+}
+
 .dempster-highway {
   background-image: url("../images/dempster.jpeg");
 }
@@ -767,11 +771,6 @@ iframe {
   background-image: url(../images/olaf/olaf_header.jpg);
 }
 
-.article__headline1.olaf,
-.article__headline2.olaf {
-  color: #a6290d;
-}
-
 .article__header.iceland {
   background-image: url(../images/iceland/iceland_header.jpeg);
 }
@@ -780,96 +779,72 @@ iframe {
   background-image: url(../images/lycij/lycij_header.jpeg);
 }
 
-.article__headline1.lycij,
-.article__headline2.lycij {
-  color: #f27405;
-}
-
 .article__header.cyprus {
   background-image: url(../images/cyprus/cyprus_header.jpg);
-}
-
-.article__headline1.cyprus,
-.article__headline2.cyprus {
-  color: #f2b705;
 }
 
 .article__header.banff {
   background-image: url(../images/banff/banff_header.jpg);
 }
 
-.article__headline1.banff,
-.article__headline2.banff,
-.article__link.banff {
-  color: #0367a6;
-}
-
 .article__header.alberta-bc {
   background-image: url(../images/alberta/alberta_header.jpg);
-}
-
-.article__headline1.alberta-bc,
-.article__headline2.alberta-bc,
-.article__link.alberta-bc {
-  color: #4f7302;
 }
 
 .article__header.alberta-bc2 {
   background-image: url(../images/bc/bc_header.jpeg);
 }
 
-.article__headline1.alberta-bc2,
-.article__headline2.alberta-bc2,
-.article__link.alberta-bc2 {
-  color: #0367a6;
-}
-
 .article__header.stampede {
   background-image: url(../images/stampede/stampede_header.jpg);
-}
-
-.article__headline1.stampede,
-.article__headline2.stampede,
-.article__link.stampede {
-  color: #a6290d;
 }
 
 .article__header.alberta {
   background-image: url(../images/alberta2/alberta_header.jpeg);
 }
 
-.article__headline1.alberta,
-.article__headline2.alberta,
-.article__link.alberta {
-  color: #0367a6;
-}
-
 .article__header.alaskah {
   background-image: url(../images/alaska-highway/alaska-highway_header.jpeg);
-}
-
-.article__headline1.alaskah,
-.article__headline2.alaskah,
-.article__link.alaskah {
-  color: #0367a6;
 }
 
 .article__header.alaskab {
   background-image: url(../images/alaska-highway/alaskah13.jpeg);
 }
 
-.article__headline1.alaskab,
-.article__headline2.alaskab,
-.article__link.alaskab {
-  color: #a6290d;
-}
-
 .article__header.dempster {
   background-image: url(../images/dempster/dempster_header.jpeg);
 }
 
-.article__headline1.dempster,
-.article__headline2.dempster,
-.article__link.dempster {
+.article__header.dawson {
+  background-image: url(../images/dawson/dawson_header.jpeg);
+}
+
+.article__headline1.red,
+.article__headline2.red,
+.article__link.red {
+  color: #a6290d;
+}
+
+.article__headline1.orange,
+.article__headline2.orange,
+.article__link.orange {
+  color: #f27405;
+}
+
+.article__headline1.yellow,
+.article__headline2.yellow,
+.article__link.yellow {
+  color: #f2b705;
+}
+
+.article__headline1.blue,
+.article__headline2.blue,
+.article__link.blue {
+  color: #0367a6;
+}
+
+.article__headline1.green,
+.article__headline2.green,
+.article__link.green {
   color: #4f7302;
 }/*# sourceMappingURL=style.css.map */
