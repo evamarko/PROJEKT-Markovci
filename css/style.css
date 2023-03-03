@@ -515,6 +515,14 @@ img {
   transform: scale(1.1);
 }
 
+.north-bc {
+  background-image: url("../images/north-bc.jpeg");
+}
+
+.nz {
+  background-image: url("../images/nz.jpeg");
+}
+
 .dawson-city {
   background-image: url("../images/dawson-city.jpeg");
 }
@@ -817,6 +825,14 @@ iframe {
 
 .article__header.dawson {
   background-image: url(../images/dawson/dawson_header.jpeg);
+}
+
+.article__header.new-zealand {
+  background-image: url(../images/nz/nz_header.jpeg);
+}
+
+.article__header.northbc {
+  background-image: url(../images/north-bc/north-bc_header.jpeg);
 }
 
 .article__headline1.red,
