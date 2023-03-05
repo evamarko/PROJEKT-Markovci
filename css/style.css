@@ -71,8 +71,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -515,12 +514,16 @@ img {
   transform: scale(1.1);
 }
 
-.north-bc {
-  background-image: url("../images/north-bc.jpeg");
+.franz {
+  background-image: url("../images/franz.jpeg");
 }
 
 .nz {
   background-image: url("../images/nz.jpeg");
+}
+
+.north-bc {
+  background-image: url("../images/north-bc.jpeg");
 }
 
 .dawson-city {
@@ -666,13 +669,13 @@ img {
 }
 @media screen and (min-width: 550px) {
   .article__headline1,
-.article__headline2 {
+  .article__headline2 {
     font-size: 2em;
   }
 }
 @media screen and (min-width: 960px) {
   .article__headline1,
-.article__headline2 {
+  .article__headline2 {
     font-size: 3em;
   }
 }
@@ -827,12 +830,16 @@ iframe {
   background-image: url(../images/dawson/dawson_header.jpeg);
 }
 
+.article__header.northbc {
+  background-image: url(../images/north-bc/north-bc_header.jpeg);
+}
+
 .article__header.new-zealand {
   background-image: url(../images/nz/nz_header.jpeg);
 }
 
-.article__header.northbc {
-  background-image: url(../images/north-bc/north-bc_header.jpeg);
+.article__header.franz-josef {
+  background-image: url(../images/franz/franz_header.jpeg);
 }
 
 .article__headline1.red,
