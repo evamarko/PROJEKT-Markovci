@@ -514,6 +514,10 @@ img {
   transform: scale(1.1);
 }
 
+.south-island {
+  background-image: url("../images/south-island.jpeg");
+}
+
 .franz {
   background-image: url("../images/franz.jpeg");
 }
@@ -840,6 +844,10 @@ iframe {
 
 .article__header.franz-josef {
   background-image: url(../images/franz/franz_header.jpeg);
+}
+
+.article__header.s-island {
+  background-image: url(../images/south-island/south-island_header.jpeg);
 }
 
 .article__headline1.red,
