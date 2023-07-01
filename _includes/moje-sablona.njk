@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Postřehy z více než 5 let života a práce na cestách - roadtripy, dálkové trasy a backpacking."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://markovci.cz{{ link }}" />
+    <link
+      rel="alternate"
+      hreflang="cs-cs"
+      href="https://markovci.cz{{ link }}"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,21 +26,19 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-
     <title>{{ title }}</title>
   </head>
   <body>
     <header>
       <div class="header__logo">
         <a href="/"><p class="logo">Markovci</p></a>
-        <p class="logo__text">
-          československé postřehy ze života a práce na cestách
-        </p>
+        <p class="logo__text">československé postřehy ze života na cestách</p>
       </div>
     </header>
     <main>
       {{ content | safe }}
     </main>
     <footer></footer>
+    <script src="/js/fslightbox.js"></script>
   </body>
 </html>

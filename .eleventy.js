@@ -7,6 +7,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy(".htaccess");
 
+  eleventyConfig.addPassthroughCopy("robots.txt");
+
+  eleventyConfig.addPassthroughCopy("js");
+
   return {
     // možné formáty šablon
     templateFormats: ["njk", "html", "md"],
