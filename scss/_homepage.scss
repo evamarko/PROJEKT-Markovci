@@ -30,7 +30,7 @@
   height: 4em;
   padding: 0 1em;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 650px) {
     display: none;
   }
 }
@@ -48,6 +48,10 @@
     transform: translateY(-100%);
     transform: scale(1.1);
   }
+}
+
+.north-island {
+  background-image: url("../images/north-island.jpeg");
 }
 
 .south-island {
@@ -131,7 +135,7 @@
 }
 
 .grid__pictures {
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 650px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.2em;
@@ -144,6 +148,11 @@
 
 .picture__animation {
   overflow: hidden;
+  margin-bottom: 0.2em;
+
+  @media screen and (min-width: 650px) {
+    margin-bottom: 0;
+  }
 }
 
 .picture__text {

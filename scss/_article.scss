@@ -20,10 +20,19 @@
 
 .article__content {
   @media screen and (min-width: 960px) {
+    display: block;
+    position: relative;
     max-width: 960px;
     margin: -75px auto 0 auto;
     background-color: colors.$color-white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 35px;
+  }
+}
+
+main {
+  @media screen and (min-width: 550px) {
+    padding-bottom: 75px;
   }
 }
 
@@ -34,7 +43,7 @@
   font-weight: bold;
   text-align: center;
   font-size: 1.5em;
-  padding: 1em;
+  padding: 1.2em;
 
   @media screen and (min-width: 550px) {
     font-size: 2em;
@@ -97,17 +106,18 @@
   text-align: center;
 
   @media screen and (min-width: 550px) {
-    padding: 0 6em;
-    text-align: justify;
+    padding: 0 5em;
   }
 
   @media screen and (min-width: 960px) {
-    padding: 0 8em;
+    padding: 0 7em;
   }
 }
 
+.article__perex a,
 .article__content-text a {
   color: colors.$color-red;
+  font-weight: bold;
 }
 
 .article__content-text a:hover,
@@ -154,10 +164,15 @@ iframe {
 
 .article__gallery img {
   margin: 0;
+  margin-bottom: 0.2em;
   padding: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  @media screen and (min-width: 450px) {
+    margin-bottom: 0;
+  }
 }
 
 //Umístění obrázků v rámci article gallery - grid
