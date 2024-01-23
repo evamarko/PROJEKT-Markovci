@@ -512,6 +512,10 @@ img {
   transform: scale(1.1);
 }
 
+.srilanka {
+  background-image: url("../images/srilanka.jpeg");
+}
+
 .north-island {
   background-image: url("../images/north-island.jpeg");
 }
@@ -577,7 +581,7 @@ img {
 }
 
 .azerbajdan {
-  background-image: url("../images/azerbajdan.jpg");
+  background-image: url("../images/azerbajdzan.jpeg");
 }
 
 .kypr {
@@ -881,6 +885,10 @@ iframe {
   background-image: url(../images/cyprus/cyprus_header.jpg);
 }
 
+.article__header.azer {
+  background-image: url(../images/azer/azer_header.jpeg);
+}
+
 .article__header.banff {
   background-image: url(../images/banff/banff_header.jpg);
 }
@@ -935,6 +943,10 @@ iframe {
 
 .article__header.n-island {
   background-image: url(../images/north-island/north-island_header.jpeg);
+}
+
+.article__header.sri-lanka {
+  background-image: url(../images/sri-lanka/srilanka_header.jpeg);
 }
 
 .article__headline1.red,
